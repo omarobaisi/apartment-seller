@@ -164,3 +164,7 @@ button:active {
   border-radius: 5px;
   font-family: "Raleway", sans-serif;
 }
+
+.message {
+  color: #443729;
+}

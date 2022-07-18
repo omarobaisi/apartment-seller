@@ -15,6 +15,11 @@ $("button").on("click", function () {
     immediate
   );
   renderApts(relevantApts);
+
+  if ($(".result").length === 0) {
+    $(".message").empty();
+    $(".message").append("No results found");
+  }
 });
 
 const renderApts = function (apartments) {
